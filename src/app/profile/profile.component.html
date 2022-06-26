@@ -1,0 +1,108 @@
+
+
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-left: -380px;
+
+}
+
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  margin-left: -380px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+</style>
+
+<div>
+<form action="" style="max-width:400px;margin:auto;">
+  <h1 style="color: rgb(34, 162, 198);margin-left: -380px;margin-top: 50px;color: black;"><b>     My Profile     </b> </h1><hr style="color: rgb(40, 151, 188);margin-left: -450px;max-width: 500px;">
+  <div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input class="input-field" type="text" placeholder="Firstname" name="usrnm">
+  </div>
+
+<div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input class="input-field" type="text" placeholder="Lastname" name="usrnm">
+  </div>
+
+  <div class="input-container">
+    <i class="fa fa-phone icon"></i>
+    <input class="input-field" type="number" placeholder="Phone" name="usrnm">
+  </div>
+
+  <div class="input-container">
+    <i class="fa fa-envelope icon"></i>
+    <input class="input-field" type="text" placeholder="Email" name="email">
+  </div>
+  
+<div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input class="input-field" type="text" placeholder="Username" name="usrnm">
+  </div>
+
+  <div class="input-container">
+    <i class="fa fa-lock icon"></i>
+    <input class="input-field" type="password" placeholder="Password" name="psw">
+  </div>
+  <button type="submit" class="btn">Signup</button>
+</form>
+</div>
+<div style="margin-left: 500px;margin-top: -380px;">
+  <h1 style="color: rgb(34, 162, 198);margin-left: 120px;">    <b>Your Account Information   </b> </h1>
+  <hr style="color: rgb(40, 151, 188);margin-left: 1px;max-width: 500px;">
+  <table class="table" style="text-align: center;border: rgb(34, 162, 198);">
+    <thead>
+      <tr>
+        <th scope="col" style="font-size: 20px;background-color: rgb(76, 76, 78);color: white;">Primary Account Number</th>
+        <th scope="col" style="font-size: 20px;background-color: rgb(76, 76, 78);color: white;">Saving Account Number</th>
+      </tr>
+    </thead>
+    
+    <tbody>
+      <tr>
+        <td style="font-size: 20px;"><b>258079</b></td>
+        <td style="font-size: 20px;"><b>8596320</b></td>
+      </tr>
+      
+     
+    </tbody>
+  </table>
+</div>
